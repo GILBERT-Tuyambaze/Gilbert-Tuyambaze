@@ -5,7 +5,6 @@
   xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
                       http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
 
-  <!-- Homepage -->
   <url>
     <loc>https://gilbert-tuyambaze.github.io/Gilbert-Tuyambaze/</loc>
     <lastmod>2025-07-26T18:44:33+00:00</lastmod>
@@ -13,7 +12,6 @@
     <priority>1.00</priority>
   </url>
 
-  <!-- Resume Files -->
   <url>
     <loc>https://gilbert-tuyambaze.github.io/Gilbert-Tuyambaze/files/Black%20and%20White%20Simple%20Business%20School%20Graduate%20Corporate%20Resume_3.pdf</loc>
     <lastmod>2025-07-26T18:44:33+00:00</lastmod>
