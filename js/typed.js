@@ -5,12 +5,12 @@
   });
 
 const menuBar = document.getElementById("menu-icon");
-const 
 
 
 menuBar.addEventListener("click", () => {console.log("hello");})
 
     
+
 
 
 
