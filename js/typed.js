@@ -5,7 +5,7 @@
   });
 
 /* ========= toggle icon navbar =========*/
-let menuIcon = document.querySelector('#mune-icon');
+let menuIcon = document.getElementById('menu-icon');
 let navbar = document.querySelector('.navbar');
 
 menuIcon.onclick = () => {
@@ -36,6 +36,7 @@ window.onscroll = () => {
                                   
                                          
     
+
 
 
 
