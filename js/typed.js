@@ -46,11 +46,14 @@ window.onscroll = () => {
                                   
 /*========= scroll reveal ============ */
 
+const srDistance = window.innerWidth < 768 ? '1rem' : '50rem';
+
 ScrollReveal({
   reset: true,
-  distance: '5rem',
+  distance: srDistance,
   duration: 2000,
 });
+
 
 ScrollReveal().reveal('.home-content, .heading',{origin: 'top'});
 ScrollReveal().reveal('.home-img, .services-container, .portfolio-box, .contact form',{origin: 'buttom'});
@@ -58,6 +61,7 @@ ScrollReveal().reveal('.home-content h1, .about-img',{origin: 'left'});
 ScrollReveal().reveal('.home-content p, .about-content',{origin: 'right'});
 
     
+
 
 
 
