@@ -441,6 +441,7 @@ span {
         border-top: .1rem;
         box-shadow: 0.5rem rgba(0, 0, 0, .2);
         display: none;
+        text-align: center;
     }
     .navbar.active {
         display: block;
@@ -517,6 +518,7 @@ span {
     }
 
 }
+
 
 
 
