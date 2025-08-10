@@ -396,7 +396,9 @@ span {
 
 @media(max-width: 1200px) {
     html {
-        font-size: 55%
+        font-size: 55%;
+        overflow: hidden;
+        overflow-y: auto;
     }
 }
 
@@ -487,6 +489,8 @@ span {
 @media (max-width: 450px) {
     html {
         font-size: 50%;
+        overflow: hidden;
+        overflow-y: auto;
     }
     .contact form .input-box input {
         width: 100%;
@@ -506,6 +510,7 @@ span {
     }
 
 }
+
 
 
 
