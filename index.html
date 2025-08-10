@@ -201,14 +201,14 @@
         <form action="https://api.web3forms.com/submit" id="contact-form" method="POST">
             <input type="hidden" name="access_key" value="e0331897-d912-4f1d-a5f1-2a8dcd09d928" />
             <div class="input-box">
-                <input type="text" name="full_name" placeholder="full name" required>
-                <input type="text" name="email" placeholder="email address" required>
+                <input type="text" name="full_name" placeholder="full name" autocomplete="full_name" required>
+                <input type="text" name="email" placeholder="email address" autocomplete="email" required>
             </div>
             <div class="input-box">
-                <input type="tel"name="telphone" placeholder="mobile number" required>
-                <input type="text" name="email_subject" placeholder="email subject" required>
+                <input type="tel"name="telphone" placeholder="mobile number" autocomplete="telphone" required>
+                <input type="text" name="email_subject" placeholder="email subject" autocomplete="email_subject" required>
             </div>
-            <textarea name="message" id="" cols="30" rows="10" placeholder="your message" required></textarea>
+            <textarea name="message" autocomplete="message" id="" cols="30" rows="10" placeholder="your message" required></textarea>
             <input type="submit" value="send message" name="submit" class="btn">
             <!-- Success/Error Message -->
             <p id="form-result" style="margin-top: 10px; font-weight: bold;"></p>
@@ -253,6 +253,7 @@
 </body>
 
 </html>
+
 
 
 
