@@ -3,4 +3,10 @@
     backSpeed: 0,
     loop: true
   });
+
+const menuBar.document.getElementById('menu-icon');
+
+
+menuBar.addEventListern('click',()=>{ console.log('hello')})
+
     
