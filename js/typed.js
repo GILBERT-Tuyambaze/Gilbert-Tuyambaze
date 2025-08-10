@@ -8,10 +8,11 @@
 let menuIcon = document.querySelector('#menu-icon');
 let navbar = document.querySelector('.navbar');
 
-menuIcon.onclick = () => {
+menuIcon.addEventListener ('click', () => {
   menuIcon.classList.toggle('bx-x');
   navbar.classList.toggle('active');
 };
+)
 
 /* ========= Scroll Sections Active Link =========*/
 
@@ -32,10 +33,17 @@ window.onscroll = () => {
       });
     };
   });
-}
+  
+  /* ========= toggle icon navbar =========*/
+  let header = document.querySelector('.header');
+
+  header.classList.toggle('sticky', window.scrollY > 100);
+  /* ========= toggle icon navbar =========*/
+};
                                   
                                          
     
+
 
 
 
