@@ -52,8 +52,10 @@ ScrollReveal({
   duration: 2000,
 });
 
-ScrollReveal().reveal('.home-content, .heading',{origin: 'top'})
+ScrollReveal().reveal('.home-content, .heading',{origin: 'top'});
+ScrollReveal().reveal('.home-img, .services-container, .portfolio-box, .contact form',{origin: 'buttom'});
     
+
 
 
 
