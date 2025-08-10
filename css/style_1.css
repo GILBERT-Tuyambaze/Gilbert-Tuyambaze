@@ -435,7 +435,7 @@ span {
         position: absolute;
         top: 100%;
         left: 0;
-        width: 100%;
+        width: 90%;
         padding: 1 rem 3%;
         background: var(--bg);
         border-top: .1rem;
@@ -515,4 +515,5 @@ span {
         text-align: center;
         margin-top: 2rem;
     }
+
 }
