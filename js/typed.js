@@ -1,11 +1,11 @@
   var typed = new Typed('#typed', {
-    strings:['A Fronted developer',' Youtuber','Blogger','A Backend developer','Passionate Programmer','Visionary Graphic Designer','a Creative Web Developer'],
+    strings:['A Fronted developer',' Youtuber','Blogger','A Backend developer','Graphic Designer','a Creative Web Developer'],
     backSpeed: 1,
     loop: true
   });
 
 /* ========= toggle icon navbar =========*/
-let menuIcon = document.getElementById('menu-icon');
+let menuIcon = document.querySelector('#menu-icon');
 let navbar = document.querySelector('.navbar');
 
 menuIcon.onclick = () => {
@@ -36,6 +36,7 @@ window.onscroll = () => {
                                   
                                          
     
+
 
 
 
