@@ -48,7 +48,7 @@ window.onscroll = () => {
 
 ScrollReveal({
   reset: true,
-  distance: '800px',
+  distance: '0px',
   duration: 2000,
 });
 
@@ -58,6 +58,7 @@ ScrollReveal().reveal('.home-content h1, .about-img',{origin: 'left'});
 ScrollReveal().reveal('.home-content p, .about-content',{origin: 'right'});
 
     
+
 
 
 
