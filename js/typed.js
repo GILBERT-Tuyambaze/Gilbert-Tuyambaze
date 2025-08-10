@@ -46,14 +46,15 @@ window.onscroll = () => {
                                   
 /*========= scroll reveal ============ */
 
-scrollReveal({
+ScrollReveal({
   reset: true,
   distance: '800px',
   duration: 2000,
 });
 
-scrollReveal().reveal('.home-content, .heading',{origin: 'top'})
+ScrollReveal().reveal('.home-content, .heading',{origin: 'top'})
     
+
 
 
 
