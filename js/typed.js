@@ -1,6 +1,8 @@
   var typed = new Typed('#typed', {
     strings:['A Fronted developer',' Youtuber','Blogger','A Backend developer','Graphic Designer','a Creative Web Developer'],
-    backSpeed: 1,
+    backSpeed: 100,
+    typeSpeed: 100,
+    backDelay: 1000,
     loop: true
   });
 
@@ -61,6 +63,7 @@ ScrollReveal().reveal('.home-content h1, .about-img',{origin: 'left'});
 ScrollReveal().reveal('.home-content p, .about-content',{origin: 'right'});
 
     
+
 
 
 
