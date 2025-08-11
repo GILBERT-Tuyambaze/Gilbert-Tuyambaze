@@ -46,7 +46,7 @@ window.onscroll = () => {
                                   
 /*========= scroll reveal ============ */
 
-const srDistance = window.innerWidth < 768 ? '1rem' : '80px';
+const srDistance = window.innerWidth < 768 ? '1rem' : '800px';
 
 ScrollReveal({
   reset: true,
@@ -61,6 +61,7 @@ ScrollReveal().reveal('.home-content h1, .about-img',{origin: 'left'});
 ScrollReveal().reveal('.home-content p, .about-content',{origin: 'right'});
 
     
+
 
 
 
