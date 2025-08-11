@@ -1,33 +1,44 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<urlset
-  xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-  xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
-                      http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-
-  <url>
-    <loc>https://gilbert-tuyambaze.github.io/Gilbert-Tuyambaze/</loc>
-    <lastmod>2025-07-26T18:44:33+00:00</lastmod>
-    <changefreq>monthly</changefreq>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!--  created with Free Online Sitemap Generator www.xml-sitemaps.com  -->
+<url>
+<loc>https://gilbert-tuyambaze.vercel.app/</loc>
+<lastmod>2025-08-11T21:01:10+00:00</lastmod>
+<priority>1.00</priority>
+</url>
+<url>
+<loc>https://gilbert-tuyambaze.vercel.app/files/Black%20and%20White%20Simple%20Business%20School%20Graduate%20Corporate%20Resume_3.pdf</loc>
+<lastmod>2025-08-11T21:01:11+00:00</lastmod>
+<priority>0.80</priority>
+</url>
+<url>
+<loc>https://gilbert-tuyambaze.vercel.app/files/Gilbert%20Tuyambaze%20Resume.pdf</loc>
+<lastmod>2025-08-11T21:01:11+00:00</lastmod>
+<priority>0.80</priority>
+</url>
+<url>
+<loc>https://gilbert-tuyambaze.vercel.app/files/Person_Statement_Gilbert_TUYAMBAZE%20.pdf</loc>
+<lastmod>2025-08-11T21:01:12+00:00</lastmod>
+<priority>0.80</priority>
+</url>
+   <url>
+    <loc>https://gilbert-tuyambaze.vercel.app/</loc>
+    <lastmod>2025-08-11</lastmod>
     <priority>1.00</priority>
   </url>
-
   <url>
-    <loc>https://gilbert-tuyambaze.github.io/Gilbert-Tuyambaze/files/Black%20and%20White%20Simple%20Business%20School%20Graduate%20Corporate%20Resume_3.pdf</loc>
-    <lastmod>2025-07-26T18:44:33+00:00</lastmod>
+    <loc>https://gilbert-tuyambaze.vercel.app/#about</loc>
     <priority>0.80</priority>
   </url>
-
   <url>
-    <loc>https://gilbert-tuyambaze.github.io/Gilbert-Tuyambaze/files/Gilbert%20Tuyambaze%20Resume.pdf</loc>
-    <lastmod>2025-07-26T18:44:33+00:00</lastmod>
+    <loc>https://gilbert-tuyambaze.vercel.app/#services</loc>
     <priority>0.80</priority>
   </url>
-
   <url>
-    <loc>https://gilbert-tuyambaze.github.io/Gilbert-Tuyambaze/files/Person_Statement_Gilbert_TUYAMBAZE%20.pdf</loc>
-    <lastmod>2025-07-26T18:44:33+00:00</lastmod>
+    <loc>https://gilbert-tuyambaze.vercel.app/#portfolio</loc>
     <priority>0.80</priority>
   </url>
-
+  <url>
+    <loc>https://gilbert-tuyambaze.vercel.app/#contact</loc>
+    <priority>0.80</priority>
+  </url>
 </urlset>
