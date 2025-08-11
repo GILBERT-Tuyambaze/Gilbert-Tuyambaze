@@ -1,3 +1,3 @@
 User-agent: *
 Allow: /
-Sitemap: https://gilbert-tuyambaze.github.io/Gilbert-Tuyambaze/sitemap.xml
+Sitemap: https://gilbert-tuyambaze.vercel.app/sitemap.xml
