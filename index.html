@@ -66,93 +66,6 @@
             <p>Welcome to my digital space where creativity meets code and design transforms ideas into experiences. I specialize in building beautiful, functional, and future-ready digital products. Whether it's a website, brand identity, or digital solution,
                 I aim to craft work that not only looks good but creates impact.
             </p>
-             
-            //🔔 New Site Update Banner 
-<div id="update-banner" class="update-banner">
-  <span>🚀 We’ve launched a new version of this site! 
-    <a href="https://gilbert-tuyambaze.vercel.app" target="_blank">Visit the new version →</a>
-  </span>
-  <button id="close-banner" class="close-banner">✖</button>
-</div>
-
-<style>
-  /* 🌟 Update Banner Styling */
-  .update-banner {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    background: linear-gradient(90deg, #2563eb, #1e40af);
-    color: white;
-    text-align: center;
-    font-family: "Poppins", sans-serif;
-    font-size: 16px;
-    padding: 12px 10px;
-    z-index: 9999;
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.15);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 10px;
-    transition: all 0.4s ease;
-  }
-
-  .update-banner a {
-    color: #ffd700;
-    font-weight: 600;
-    text-decoration: underline;
-    margin-left: 5px;
-  }
-
-  .update-banner a:hover {
-    color: #fff;
-    text-decoration: none;
-  }
-
-  .close-banner {
-    background: transparent;
-    border: none;
-    color: white;
-    font-size: 18px;
-    cursor: pointer;
-    margin-left: 10px;
-    transition: transform 0.2s ease;
-  }
-
-  .close-banner:hover {
-    transform: scale(1.2);
-  }
-
-  @media (max-width: 600px) {
-    .update-banner {
-      flex-direction: column;
-      font-size: 14px;
-      padding: 10px;
-    }
-    .close-banner {
-      margin-top: 4px;
-    }
-  }
-</style>
-
-<script>
-  // 🚀 Banner Visibility Control
-  const banner = document.getElementById("update-banner");
-  const closeBtn = document.getElementById("close-banner");
-
-  // Only show if not closed before
-  if (localStorage.getItem("update_banner_closed_v2") === "true") {
-    banner.style.display = "none";
-  }
-
-  closeBtn.addEventListener("click", () => {
-    banner.style.opacity = "0";
-    setTimeout(() => (banner.style.display = "none"), 400);
-    localStorage.setItem("update_banner_closed_v2", "true"); // change version tag for next updates
-  });
-</script>
-
-            
             <div class="social-media">
                 <a href="https://facebook.com/profile.php?id=100084341944042"><svg  width="4rem" height="4rem" viewBox="0 0 256 256">
                 <path fill="gray" d="M256 128C256 57.308 198.692 0 128 0S0 57.308 0 128c0 63.888 46.808 116.843 108 126.445V165H75.5v-37H108V99.8c0-32.08 19.11-49.8 48.348-49.8C170.352 50 185 52.5 185 52.5V84h-16.14C152.959 84 148 93.867 148 103.99V128h35.5l-5.675 37H148v89.445c61.192-9.602 108-62.556 108-126.445"/>
@@ -369,6 +282,7 @@
 </body>
 
 </html>
+
 
 
 
